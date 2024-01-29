@@ -1,0 +1,234 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:500");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.desktop {
+  background-color: #030408;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #030408;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 33px;
+  left: 42px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #929292;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 148px;
+  left: 584px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  top: 148px;
+  left: 892px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  top: 148px;
+  left: 1224px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-5 {
+  position: absolute;
+  top: 931px;
+  left: 65px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #929292;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap {
+  width: 1100px;
+  top: 248px;
+  left: 170px;
+  position: absolute;
+  height: 639px;
+}
+
+.desktop .group {
+  position: absolute;
+  width: 1100px;
+  height: 639px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .overlap-group {
+  width: 408px;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  position: absolute;
+  height: 639px;
+}
+
+.desktop .rectangle {
+  background-color: #282828;
+  position: absolute;
+  width: 408px;
+  height: 639px;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+}
+
+.desktop .group-2 {
+  position: absolute;
+  width: 372px;
+  height: 549px;
+  top: 24px;
+  left: 16px;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 121px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 368px;
+  top: 276px;
+  left: 0;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-2 {
+  width: 408px;
+  top: 0;
+  left: 692px;
+  border-radius: 40px;
+  position: absolute;
+  height: 639px;
+}
+
+.desktop .rectangle-2 {
+  background-color: #292828;
+  position: absolute;
+  width: 408px;
+  height: 639px;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+}
+
+.desktop .group-3 {
+  position: absolute;
+  width: 372px;
+  height: 551px;
+  top: 24px;
+  left: 20px;
+}
+
+.desktop .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 368px;
+  top: 278px;
+  left: 0;
+  font-family: "Roboto Mono", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .sans-titre {
+  position: absolute;
+  width: 169px;
+  height: 171px;
+  top: 93px;
+  left: 116px;
+  object-fit: cover;
+}
+
+.desktop .linkedin-logo {
+  position: absolute;
+  width: 169px;
+  height: 172px;
+  top: 92px;
+  left: 812px;
+  object-fit: cover;
+}
